@@ -1,5 +1,154 @@
-.test{
-    width: 100px;
-    height: 100px;
-    background-color: green;
+.write {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+.write-1 {
+    width: 783px;
+    height: 112px;
+    top: 229px;
+    left: 135px;
+    padding-top: 150px;
+    margin-left: 135px;
+
+}
+
+.write-2 {
+    margin-left: 135px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    text-align: left;
+
+
+}
+
+.click {
+    background-color: #0094D9;
+    color: white;
+    width: 210px;
+    height: 56px;
+
+
+    margin-left: 135px;
+    border-radius: 10px
+}
+
+.banner-slide {
+    width: 1540px;
+    height: 750px;
+}
+
+.content-title {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.1em;
+    text-align: left;
+
+
+}
+
+.btn-1 {
+    background-color: #0094D9;
+    color: white;
+    width: 210px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.header-slider {
+    width: 100%;
+    height: 100vh;
+    max-height: 750px;
+}
+
+.header-slider .banner-swiper {
+    width: 100%;
+    height: 100%;
+}
+.header-slider .banner-swiper .swiper-pagination{
+    bottom: 20px;
+}
+.header-slider .banner-swiper .swiper-pagination .swiper-pagination-bullet{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    opacity: 1;
+    background-color: transparent;
+    position: relative;
+}
+.header-slider .banner-swiper .swiper-pagination .swiper-pagination-bullet::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.header-slider .banner-swiper .swiper-pagination .swiper-pagination-bullet-active{
+    border-color: #fff;
+}
+
+.header-slider .banner-slide {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-slider .banner-slide .container {
+    width: 100%;
+    height: 100%;
+}
+
+.header-slider .banner-slide .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.header-slider .banner-slide .content .content-title {
+    width: 100%;
+    max-width: 780px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 3.6px;
+}
+
+.header-slider .banner-slide .content .content-text {
+    width: 100%;
+    max-width: 650px;
+    color: #FFF;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.6px;
 }
