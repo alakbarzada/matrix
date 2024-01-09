@@ -152,3 +152,37 @@
     line-height: 30px;
     letter-spacing: 1.6px;
 }
+.write{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.44px;
+padding-top: 5px;
+
+}
+.button-1{
+    width: 210px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #0094D9;
+
+}
+.content-btn{
+    color: #FFF;
+    text-decoration: none;
+}
+.logo{
+    width: 225.667px;
+height: 56px;
+flex-shrink: 0;
+margin-left: 135px;
+margin-top: 20px;
+}
