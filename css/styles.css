@@ -186,3 +186,54 @@ flex-shrink: 0;
 margin-left: 135px;
 margin-top: 20px;
 }
+.card-1{
+    width: 210px;
+height: 230px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #DADADA;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+.icon-card{
+    width: 102px;
+height: 102px;
+flex-shrink: 0;
+background-color: #FAFAFA;
+border-radius: 50px;
+margin-left: 51px;
+margin-top: 30px;
+
+}
+.icon{
+    width: 57.604px;
+height: 56px;
+flex-shrink: 0;
+
+
+}
+.icon-1{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.card-write{
+    color: #303030;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 187.5% */
+letter-spacing: 1.6px;
+margin-top: 50px;
+margin-left: 10px;
+
+
+}
+.icon-2{
+    margin-left: 15px;
+    margin-top: 25px;    
+}
