@@ -378,7 +378,14 @@ margin-right: 70px;
     justify-content: center;
     align-items: center;
     transform: translateY(260px);
+    
 }
+
+
+
+
+
+
 .photo-card{
     width: 370px;
 height: 250px;
@@ -438,4 +445,46 @@ letter-spacing: 0.84px;
 margin-top: 10px;
 
 }
+
+.blog-card-1{
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    width: 1480 px;
+height: 360px;
+background: #1E3556;
+display: flex;
+justify-content: space-around;
+
+}
+.footers{
+    display: flex;
+    color: white;
+    padding-top: 60px;
+
+
+
+    
+}
+.list{
+    list-style: none;
+    color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+
+}
+.list-first{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    font-style: normal;
+}
+
+
 

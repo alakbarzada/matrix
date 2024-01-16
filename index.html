@@ -277,65 +277,104 @@
 
 
         <div>
-
             <i class="fa-solid fa-play"></i>
-
+        
             <img class="video-1" src="image/video/slide-v1-1 1.png" width="1510px" height="420px">
         </div>
-
+<br/><br/><br/>
 
 
 
         <div class="swiper blog-swiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="blog-card">
-                        <div class="blog-image">
-                            <img src="image/card photo/02 1.png">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-title">Lorem Ipsum is simply dummy text
-                                of the printing.</div>
-                            <div class="blog-text">Lorem Ipsum has been the
-                                industry's standard dummy text ever since the 1500s.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="blog-card">
-                        <div class="blog-image">
-                            <img src="image/card photo-2/01 1.png">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-title">Lorem Ipsum is simply dummy text 
-                                of the printing.</div>
-                            <div class="blog-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                 when an unknown printer took a galley of type and scrambled it to book.</div>
-                        </div>
-                    </div>
-                </div>
                 
-                <div class="swiper-slide">
-                    <div class="blog-card">
-                        <div class="blog-image">
-                            <img src="image/card photo-3/service2 1.png">
+                    <div class="swiper-slide">
+                        <div class="blog-card">
+                            <div class="blog-image">
+                                <img src="image/card photo/02 1.png">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-title">Lorem Ipsum is simply dummy text
+                                    of the printing.</div>
+                                <div class="blog-text">Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s.</div>
+                            </div>
                         </div>
-                        <div class="blog-content">
-                            <div class="blog-title">Lorem Ipsum is simply dummy text 
-                                of the printing.</div>
-                            <div class="blog-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="blog-card">
+                            <div class="blog-image">
+                                <img src="image/card photo-2/01 1.png">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-title">Lorem Ipsum is simply dummy text
+                                    of the printing.</div>
+                                <div class="blog-text">Lorem Ipsum has been the industry's standard dummy text ever
+                                    since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to book.</div>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-               
-
+                    <div class="swiper-slide">
+                        <div class="blog-card">
+                            <div class="blog-image">
+                                <img src="image/card photo-3/service2 1.png">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-title">Lorem Ipsum is simply dummy text
+                                    of the printing.</div>
+                                <div class="blog-text">Lorem Ipsum has been the industry's standard dummy text ever
+                                    since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book.</div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
+        <br/><br/>
 
-    
+
+        <footer class="foot">
+<div class="footers">
+<ul  class="list">
+<li  class="list-first">Menyular</li>
+<li>Haqqımızda</li>
+<li>Missiyamız</li>
+<li>Bloq</li>
+<li>Əlaqə</li>
+</ul>
+
+<ul class="list">
+<li>Enerjilər</li>
+<li>Xidmətlər</li>
+<li>Layihələr</li>
+</ul>
+
+
+<ul class="list">
+<li class="list-first">Faydalı linklər</li>
+<li>Şikayət və təkliflər</li>
+<li>Şərtlər və qaydalar</li>
+<li>FAQ</li>
+</ul>
+</div>
+<div >
+<input type="text"placeholder="axtar">
+</div>
+
+
+
+
+
+
+        </footer>
+
+
 
 
 
@@ -355,12 +394,13 @@
                     dynamicMainBullets: 3,
 
                     clickable: true,
+                    
                 },
             });
         </script>
 
         <script>
-            var swiper = new Swiper(".mySwiper", {
+            var swiper = new Swiper(".blog-swiper", {
                 slidesPerView: 1,
                 spaceBetween: 10,
                 pagination: {
@@ -368,7 +408,7 @@
                     clickable: true,
                 },
                 breakpoints: {
-                    640: {
+                    576: {
                         slidesPerView: 2,
                         spaceBetween: 20,
                     },
