@@ -283,11 +283,14 @@
     margin-left: 20px;
 
 }
+.content{
+    margin-left: 50px  ;
+}
 
 .photo-1 {
     width: 401.505px;
     height: 535px;
-    margin-left: 135px;
+    margin-left: 125px;
     flex-shrink: 0;
     margin-top: 20px;
 }
@@ -493,7 +496,9 @@ button {
 }
 
 .blog-card {
-    margin-left: 80px;
+    margin-left: 100px;
+    display: inline-block   ;
+    
 }
 
 .blog-card-1 {
@@ -652,3 +657,4 @@ button {
     font-size: 19px;
     color: #fff;
 }
+
