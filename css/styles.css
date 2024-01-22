@@ -188,103 +188,40 @@
     color: #FFF;
     text-decoration: none;
 }
+.card-1{
+    width: 15%;
+    height: 35vh;
 
-.card-1 {
-    width: 210px;
-    height: 230px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 1px solid #DADADA;
+    border-radius:10px ;
+    border: 1px solid #dadada;
 }
-
-.cards {
+.cards{
     display: flex;
-    justify-content: space-around;
-    padding: 30px;
-    transform: rotateY(25deg);
-
+justify-content: space-around;    
+padding-top: 4%;
 
 }
-
-.icon-card {
-    width: 102px;
-    height: 102px;
-    flex-shrink: 0;
-    background-color: #FAFAFA;
-    border-radius: 50px;
-    margin-left: 51px;
-    margin-top: 30px;
-
+.card-1 {
+   
+   text-align: center;
+    box-sizing: border-box;
+    padding-top: 2%;
 }
-
-.icon {
-    width: 57.604px;
-    height: 56px;
-    flex-shrink: 0;
-
-
-}
-
-.icon-1 {
-    margin-left: 25px;
-    margin-top: 25px;
-}
-
-.card-write {
+.card-write{
+    display: block;
+    padding-top: 20%;
     color: #303030;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 20px;
-    /* 187.5% */
-    letter-spacing: 1.6px;
-    margin-top: 50px;
-    margin-left: 10px;
-
-
+font-family: Inter;
+font-size: 100%;
+font-style: normal;
+font-weight: 600;
+line-height: 5vh; /* 187.5% */
+letter-spacing: 1.6px;
 }
 
-.icon-2 {
-    margin-left: 15px;
-    margin-top: 25px;
-}
 
-.icon-3 {
-    margin-left: 17px;
-    margin-top: 20px;
-}
-
-.icon-4 {
-    margin-left: 17px;
-    margin-top: 20px;
-}
-
-.icon-5 {
-    margin-left: 35px;
-    margin-top: 20px;
-}
-
-.icon-6 {
-    margin-left: 25px;
-    margin-top: 20px;
-}
-
-.card-write-1 {
-    color: #303030;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 20px;
-    /* 187.5% */
-    letter-spacing: 1.6px;
-    margin-top: 50px;
-    margin-left: 20px;
-
-}
 .content{
-    margin-left: 50px  ;
+    margin-left: 2%  ;
 }
 
 .photo-1 {
@@ -386,24 +323,23 @@ button {
 
 .big {
     display: flex;
-    margin-right: 20px;
+    
     
 
 
 }
 
 .big-text {
-    transform: translateX(-60px);
+    transform: translateX(-10%);
 
 }
 
 .photo-2-write {
     background-color: #0094D9;
-    width: 12px;
-    height: 96px;
-    margin-left: auto;
-    margin-top: -50px;
-    margin-right: 70px;
+    width: 2%;
+    height: 15vh;
+    text-align:right ;
+   
 
 
 
@@ -657,4 +593,5 @@ button {
     font-size: 19px;
     color: #fff;
 }
+
 
