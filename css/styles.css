@@ -329,7 +329,7 @@ font-family: Inter;
 font-size: 32px;
 font-style: normal;
 font-weight: 600;
-letter-spacing: 3.2px;
+letter-spacing: 1.2px;
 
 }
 .write-color{
@@ -368,9 +368,9 @@ transform: translate(-10%,-10%);
     font-family: Inter;
 
 font-style: normal;
-line-height: 100%; /* 200% */
+line-height: 200%; /* 200% */
 letter-spacing: 1.4px;
-margin-top: 5%;
+margin-top: 6%;
 width: 100%;
 height: 100vh;
 
@@ -461,12 +461,143 @@ height: 100vh;
     background-color:#1E3556;
     height: 40vh;
    color: white; 
+   list-style: none;
 }
 .foot{
     display: flex;
     justify-content: space-around; 
+    list-style: none;
+    color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
      
 }
+.list-1{
+    color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+
+ 
+} 
+.list-write{
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+    
+}
+.from-search{
+    position: relative;
+    top: 3vh;
+}
+.from-search input::placeholder{
+color:#FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.from-search input{
+    width: 90%;
+    height: 7vh;
+    background: #1E3556;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    background-color: transparent;
+    outline: none;
+    padding: 15px 20px;
+    padding-right: 40px;
+}
+.from-search button{
+    position: absolute;
+    transform: translateX(-70%);
+    right: 15px;
+    top: 10px;
+    
+    font-size: 19px;
+}
+.icons{
+    background-color: #1E3556;
+    
+margin-top: 10px;
+text-align: center; 
+}
+.footer-foot{
+    width: 80%;
+    height: 1px;
+flex-shrink: 0;
+background: rgba(217, 217, 217, 0.55);
+margin-left: 10%;
+}
+.footer-write-1{
+    color: var(--gray---1, #ACB1C4);
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+}
+.footer-write-2{
+    color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: right ;
+margin: 10px;
+
+
+}
+
+@media screen and (max-width:500px) {
+ .header-slider .banner-slide .content .content-title{
+      
+
+font-size: 26px;
+    }
+    .button-1{
+      
+        width: 110px;
+        height: 50px;
+    }
+    .general-navbar .nav-inner .right{
+        display: none;
+        
+    }
+    .card-1{
+       width: 80px;
+       height: 140px;   
+    }
+    .card-write{
+        font-size: 10px;
+        margin-top: -20px;
+        line-height: 20px;
+    }
+    .content-bigphoto{
+        width: 200px;
+        height: 300px;
+    }
+    .cont-write{
+        font-size: 10px;
+        
+        
+    }
+    
+
+
+}
+
+
 
 
 
