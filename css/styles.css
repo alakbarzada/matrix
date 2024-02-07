@@ -390,6 +390,26 @@ button {
         display: none;
     }
 }
+.menu-list{
+    list-style: none;
+    color:#fff;
+    font-size: 20px;
+    margin-top: 40px;
+    
+}
+.menu-btn-logo{
+    margin-top: -40px;
+   margin-left: 15px;
+}
+.menu-btn-icon{
+    margin-left: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+  
+
+}
 
 .mobile-menu {
     position: fixed;
@@ -400,7 +420,7 @@ button {
     height: 100vh;
     overflow: auto;
     z-index: 999;
-    background-color: #fff;
+    background-color: #1E3556;
     opacity: 0;
     transition: all 0.3s;
     padding: 15px 12px;
@@ -411,6 +431,7 @@ button {
         display: none;
     }
 }
+
 
 .mobile-menu.active {
     right: 0;
