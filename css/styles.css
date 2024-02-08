@@ -240,6 +240,7 @@
     padding-top: 4%;
     padding-left: 5%;
     padding-right: 5%;
+    
 
 
 
@@ -393,8 +394,9 @@ button {
 .menu-list{
     list-style: none;
     color:#fff;
-    font-size: 20px;
-    margin-top: 40px;
+    display: grid;
+    padding: 10px;
+   font-size: 20px;
     
 }
 .menu-btn-logo{
@@ -409,6 +411,11 @@ button {
     padding-top: 20px;
   
 
+}
+.menu-language{
+    color: #fff;
+ margin-left: 30px;
+    padding-top: 20px;
 }
 
 .mobile-menu {
@@ -684,6 +691,7 @@ button {
 
 .blog-card {
     margin-top: 10px;
+   
 
 
 
@@ -908,6 +916,8 @@ section {
 
 .about-text {
     background: #FAFAFA;
+   margin-top: 100px;
+    
 
 }
 
@@ -924,6 +934,7 @@ section {
 .about-title {
     color: #0094D9;
     font-size: 30px;
+    margin-right: 20px;
 
 
 
@@ -1046,8 +1057,10 @@ section {
 
 .title-color {
     background-color: #0094D9;
-    width: 70px;
+    width: 100px;
     height: 100px;
+    margin-right: 15px;
+    margin-top: 3px;
 }
 
 @media(min-width:992px) {
@@ -1060,4 +1073,63 @@ section {
 .foot-content {
     margin-right: 200px;
 
+}
+.about-title-2{
+    color: #19284A;
+margin-right: 10px;
+font-size: 30px;
+
+}
+.title-color-2{
+    background: #19284A;
+    width:80px ;
+    height: 100px;
+}
+.photo-about{
+    width: 100%;
+    height: 50vh;
+}
+@media(min-width:992px){
+    .photo-about{
+        width: 100%;
+        height: 40vh;
+        
+    }
+
+
+}
+
+
+@media(min-width:992px){
+  .about-text-1{
+    width: 40%;
+    height: 10%;
+    transform: translateX(50%);
+    background-color: #FAFAFA;
+  }
+}
+@media(min-width:992px){
+    .about-content-1{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+.title-color-1{
+     background: #19284A;
+    width: 12px;
+    height: 96px;
+}
+.about-title-1{
+    color: #19284A;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.abouts-title{
+    display: flex;
+}
+@media(min-width:992px){
+   .abouts-title{
+    margin-left: 8%;
+   }
 }
