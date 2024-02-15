@@ -240,7 +240,7 @@
     padding-top: 4%;
     padding-left: 5%;
     padding-right: 5%;
-    
+
 
 
 
@@ -391,30 +391,34 @@ button {
         display: none;
     }
 }
-.menu-list{
+
+.menu-list {
     list-style: none;
-    color:#fff;
+    color: #fff;
     display: grid;
     padding: 10px;
-   font-size: 20px;
-    
+    font-size: 20px;
+
 }
-.menu-btn-logo{
+
+.menu-btn-logo {
     margin-top: -40px;
-   margin-left: 15px;
+    margin-left: 15px;
 }
-.menu-btn-icon{
+
+.menu-btn-icon {
     margin-left: 20px;
     color: #fff;
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
-  
+
 
 }
-.menu-language{
+
+.menu-language {
     color: #fff;
- margin-left: 30px;
+    margin-left: 30px;
     padding-top: 20px;
 }
 
@@ -691,7 +695,7 @@ button {
 
 .blog-card {
     margin-top: 10px;
-   
+
 
 
 
@@ -759,13 +763,16 @@ footer .footer__links a {
     color: #fff;
     text-align: center;
 }
+
 @media (min-width: 1200px) {
     footer .footer__links {
         align-items: flex-start;
     }
+
     .footer .footer__links .links__title {
         text-align: start;
     }
+
     footer .footer__links a {
         text-align: start;
     }
@@ -781,9 +788,10 @@ footer .footer__top__right {
 }
 
 @media (min-width: 1200px) {
-    footer .footer__top__left{
+    footer .footer__top__left {
         width: 70%;
     }
+
     footer .footer__top__right {
         width: 30%;
         justify-content: flex-start;
@@ -916,8 +924,8 @@ section {
 
 .about-text {
     background: #FAFAFA;
-   margin-top: 100px;
-    
+    margin-top: 100px;
+
 
 }
 
@@ -957,7 +965,7 @@ section {
     .video-section {
 
         width: 100%;
-        
+
         position: relative;
         margin-top: -40px;
 
@@ -1074,205 +1082,210 @@ section {
     margin-right: 200px;
 
 }
-.about-title-2{
+
+.about-title-2 {
     color: #19284A;
-margin-right: 10px;
-font-size: 30px;
+    margin-right: 10px;
+    font-size: 30px;
 
 }
-.title-color-2{
+
+.title-color-2 {
     background: #19284A;
-    width:80px ;
+    width: 80px;
     height: 100px;
 }
-.photo-about{
+
+.photo-about {
     width: 100%;
     height: 50vh;
 }
-@media(min-width:992px){
-    .photo-about{
+
+@media(min-width:992px) {
+    .photo-about {
         width: 100%;
         height: 40vh;
-        
+
     }
 
 
 }
 
 
-@media(min-width:992px){
-  .about-text-1{
-    width: 40%;
-    height: 10%;
-    transform: translateX(50%);
-    background-color: #FAFAFA;
-  }
+@media(min-width:992px) {
+    .about-text-1 {
+        width: 40%;
+        height: 10%;
+        transform: translateX(50%);
+        background-color: #FAFAFA;
+    }
 }
-@media(min-width:992px){
-    .about-content-1{
+
+@media(min-width:992px) {
+    .about-content-1 {
         display: flex;
         justify-content: space-around;
     }
 }
-.title-color-1{
-     background: #19284A;
+
+.title-color-1 {
+    background: #19284A;
     width: 12px;
     height: 96px;
 }
-.about-title-1{
+
+.about-title-1 {
     color: #19284A;
     font-size: 30px;
     margin-left: 10px;
     margin-top: 20px;
 }
-.abouts-title{
+
+.abouts-title {
     display: flex;
 }
-@media(min-width:992px){
-   .abouts-title{
-    margin-left: 8%;
-   }
+
+@media(min-width:992px) {
+    .abouts-title {
+        margin-left: 8%;
+    }
 }
 
-.about-number{
+.about-number {
     font-size: 30px;
 
-text-align: center;
+    text-align: center;
 
 
 }
 
-.about-number-color{
+.about-number-color {
     background: #D4DFEF;
-border-radius: 30px;
-width: 20%;
-margin-left: 35%;
+    border-radius: 30px;
+    width: 20%;
+    margin-left: 35%;
 }
-@media(min-width:992px){
-    .about-number-color{
+
+@media(min-width:992px) {
+    .about-number-color {
         width: 20%;
         height: 30%;
-        
-        
+
+
     }
 }
 
 
 
-.text-title{
+.text-title {
     margin-top: 10px;
     font-size: 20px;
-    
+
 }
 
-.text-2{
+.text-2 {
     margin-top: 10px;
 }
-@media(min-width:992px){
-    .text-2{
+
+@media(min-width:992px) {
+    .text-2 {
         width: 70%;
-        
+
     }
 }
 
-@media(min-width:992px){
-    .about-cards{
+@media(min-width:992px) {
+    .about-cards {
         margin-left: 7%;
     }
 }
 
 
-.about-card{
+.about-card {
     margin-top: 30px;
 }
-.about-cards{
+
+.about-cards {
     display: block;
 }
-@media(min-width:992px){
-    .about-cards{
+
+@media(min-width:992px) {
+    .about-cards {
         display: flex;
-        justify-content: space-around   ;
+        justify-content: space-around;
     }
 }
 
-
-
-
-.services-icon{
+.container-icon{
     background: #D4DFEF;
-
-height: 15vh;
+width: 100px;
+height: 13vh;
+padding-left: 13px;
+padding-top: 10px;
 border-radius: 100%;
-margin-right: 10px;
+text-align: center;
 }
 @media(min-width:992px){
-    .services-icon{
-        width: 7%;
+    .container-icon{
+        width: 100px;
+        text-align: center;
+        padding-top: 15px;
+        
     }
 }
-.services-icon-1{
-    margin-left: 20px;
-    margin-top: 15px;
+.container-title{
+    color: #19284A;
+    padding-top: 90px;
+
+
 }
-@media(min-width:992px){
-    .services-icon-1{
-        margin-top: 20px;
-    }
-}
-.services-icon-color{
+.container-color{
     background: #19284A;
 width: 10px;
-height: 160px;
+height: 20vh;
 
 }
-.service-1{
+@media(min-width:992px){
+    .container-color{
+        width: 15px;
+        margin-right: 30px;
+    }
+}
+.container-small{
     display: flex;
-    justify-content: end;
-}
-.services-title-text{
-    font-size: 25px;
-    color: #19284A;
-}
-.services-texts{
-    display: block;
-    margin-left: 15px;
 }
 @media(min-width:992px){
-    .services-texts{
+    .container-small{
+        padding-left: 50%;
+    }
+}
+.container-text{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+@media(min-width:992px){
+    .container-text{
+        width: 90%;
+        
+    }
+}
+@media(min-width:992px){
+    .container-services{
+        display: flex;
+ flex-direction: row-reverse;
+ padding-left: 9%;
+    }
+}
+@media(min-width:992px){
+    .container-first{
         padding-left: 10%;
     }
 }
-
-
-
-
-.services-photo{
+.container-photo{
     width: 100%;
 }
 @media(min-width:992px){
-    .services-photo{
-        margin-right: 10%;
-        width: 30%;
+    .container-photo{
+       width: 500px;
     }
 }
-
-
-
-
-@media(min-width:992px){
-    .services-text{
-        width: 80%;
-        
-    }
-}
-
-@media(min-width:992px){
-    .services-first{
-        display: flex;
-        flex-direction: row-reverse;
-        
-        
-    }
-}
-
-

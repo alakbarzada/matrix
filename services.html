@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +16,7 @@
     <script src="https://kit.fontawesome.com/33b11c7355.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <header>
         <nav class="mobile-navbar">
@@ -120,50 +122,33 @@
 
     </header>
 
-
+    <main>
 <section>
-<main>
-<div>
-  
-
-<div class="service-1">
-    <div class="services-icon">
-        <img class="services-icon-1" src="image/services/img-1.svg"width="70" height="70">
+<div class="container-services">
+<div class="container-first">
+    <div class="container-small" >
+        <div class="container-icon"><img src="image/services/img-1.svg"></div>
+        <div class="container-title">Offshore Oil and Gas Engineering</div>
+        <div class="container-color"></div>
     </div>
-
-    <div class="services-icon-color"></div>
+    <div class="container-text">Contrary to popular belief, Lorem Ipsum is not simply random text.
+         It has roots in a piece of classical Latin literature from 45 BC,
+          making it over 2000 years old. 
+          Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+           looked up one of the more obscure Latin words, consectetur,
+            from a Lorem Ipsum passage, and going through the cites of the word in classical literature,
+             discovered the undoubtable source.
+              Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" 
+              (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
+              This book is a treatise on the theory of ethics,
+               very popular during the Renaissance. The first line of Lorem Ipsum, 
+        "Lorem ipsum dolor sit amet..",
+         comes from a line in section 1.10.32.</div>
+    
 </div>
-<div class="services-first">
-<div class="services-texts">
-    <div class="services-title-text">Offshore Oil and Gas Engineering</div>
-    <div class="services-text">Contrary to popular belief,
-         Lorem Ipsum is not simply random text. 
-        It has roots in a piece of classical Latin literature from 45 BC,
-         making it over 2000 years old.
-          Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, 
-          looked up one of the more obscure Latin words, consectetur,
-           from a Lorem Ipsum passage, and going through the cites of the word in classical literature,
-            discovered the undoubtable source.
-             Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" 
-             (The Extremes of Good and Evil) by Cicero, written in 45 BC.
-              This book is a treatise on the theory of ethics, 
-              very popular during the Renaissance.
-         The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
-          comes from a line in section 1.10.32.</div>
+<div >
+    <img class="container-photo" src="photo/service-photo-1/oil-rig-created-with-generative-ai-technology 1.png">
 </div>
-    <img class="services-photo" src="photo/service-photo-1/oil-rig-created-with-generative-ai-technology 1.png">
-
-</div>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -171,19 +156,54 @@
 
 
 
+<div>
+<div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+<div></div>
 
 
 
 
 
+</div>
 
 
-</main>
+
+
+
 
 
 
 </section>
 
-    
+
+
+    </main>
+   
+       
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        var swiper = new Swiper(".banner-swiper", {
+
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+                dynamicMainBullets: 3,
+
+                clickable: true,
+
+            },
+        });
+    </script>
+
+
 </body>
+
 </html>
