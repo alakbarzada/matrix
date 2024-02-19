@@ -1255,6 +1255,7 @@ height: 20vh;
 }
 .container-small{
     display: flex;
+    padding-top: 15px;
 }
 @media(min-width:992px){
     .container-small{
@@ -1351,4 +1352,34 @@ text-align: left;
         
 }
 
- 
+.container-head-link{
+   display: grid;
+   text-align: center;
+  padding: 10px;  
+}
+@media(min-width:992px){
+    .container-head-link{
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+}
+.project-photo{
+    width: 50%;
+
+}
+@media(min-width:992px){
+    .project-photo{
+        width: 30%;
+    }
+}
+.container-project-photo{
+flex-wrap: wrap;
+   display: flex;
+}
+@media(min-width:992px){
+    .container-project-photo{
+justify-content: center;
+
+    }
+}
