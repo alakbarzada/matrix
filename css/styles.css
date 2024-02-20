@@ -1216,170 +1216,407 @@ section {
     }
 }
 
-.container-icon{
+.container-icon {
     background: #D4DFEF;
-width: 100px;
-height: 13vh;
-padding-left: 8px;
-padding-top: 10px;
-border-radius: 100%;
-text-align: center;
+    width: 100px;
+    height: 13vh;
+    padding-left: 8px;
+    padding-top: 10px;
+    border-radius: 100%;
+    text-align: center;
 }
-@media(min-width:992px){
-    .container-icon{
+
+@media(min-width:992px) {
+    .container-icon {
         width: 100px;
         text-align: center;
         padding-top: 15px;
-        
+
     }
 }
-.container-title{
+
+.container-title {
     color: #19284A;
     padding-top: 80px;
-font-size: 20px;
+    font-size: 20px;
 
 
 
 }
-.container-color{
+
+.container-color {
     background: #19284A;
-width: 10px;
-height: 20vh;
+    width: 10px;
+    height: 20vh;
 
 }
-@media(min-width:992px){
-    .container-color{
+
+@media(min-width:992px) {
+    .container-color {
         width: 15px;
         margin-right: 30px;
     }
 }
-.container-small{
+
+.container-small {
     display: flex;
     padding-top: 15px;
 }
-@media(min-width:992px){
-    .container-small{
+
+@media(min-width:992px) {
+    .container-small {
         padding-left: 50%;
     }
 }
-.container-text{
+
+.container-text {
     padding-left: 10px;
     padding-top: 10px;
     font-family: Inter;
-font-size: 12px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0.07em;
-text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.07em;
+    text-align: left;
 
 }
-@media(min-width:992px){
-    .container-text{
+
+@media(min-width:992px) {
+    .container-text {
         width: 90%;
-        
+
     }
 }
-@media(min-width:992px){
-    .container-services{
+
+@media(min-width:992px) {
+    .container-services {
         display: flex;
- flex-direction: row-reverse;
- padding-left: 9%;
+        flex-direction: row-reverse;
+        padding-left: 9%;
     }
 }
-@media(min-width:992px){
-    .container-first{
+
+@media(min-width:992px) {
+    .container-first {
         padding-left: 10%;
     }
 }
-.container-photo{
+
+.container-photo {
     width: 100%;
 }
-@media(min-width:992px){
-    .container-photo{
-       width: 500px;
+
+@media(min-width:992px) {
+    .container-photo {
+        width: 500px;
     }
 }
-.container-small-1{
+
+.container-small-1 {
     display: flex;
     padding-top: 20px;
 }
 
-@media(min-width:992px){
-    .container-text-title{
+@media(min-width:992px) {
+    .container-text-title {
         padding-top: 50px;
     }
 }
 
-.container-text-1{
+.container-text-1 {
     padding-left: 10px;
     padding-top: 10px;
     color: #303030;
     font-family: Inter;
-font-size: 12px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0.07em;
-text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.07em;
+    text-align: left;
 
 
 }
-@media(min-width:992px){
-    .container-text-1{
-        width:70%;
+
+@media(min-width:992px) {
+    .container-text-1 {
+        width: 70%;
     }
 }
 
-@media(min-width:992px){
-    .container-service-1{
+@media(min-width:992px) {
+    .container-service-1 {
         display: flex;
-       padding: 40px;
-        
+        padding: 40px;
+
     }
 }
 
-@media(min-width:992px){
-    .container-text-title{
+@media(min-width:992px) {
+    .container-text-title {
         display: block;
         margin-left: 85px;
     }
 }
 
-@media(min-width:992px){
-    .container-photo-1{
+@media(min-width:992px) {
+    .container-photo-1 {
         padding-top: 50px;
-      
+
     }
-        
+
 }
 
-.container-head-link{
-   display: grid;
-   text-align: center;
-  padding: 10px;  
+.container-head-link {
+    display: grid;
+    text-align: center;
+    padding: 10px;
 }
-@media(min-width:992px){
-    .container-head-link{
+
+@media(min-width:992px) {
+    .container-head-link {
         display: flex;
         justify-content: center;
         justify-content: space-evenly;
     }
 }
-.project-photo{
+
+.project-btn.active {
+    border-bottom: 3px solid #0094D9;
+    margin-top: 10px;
+
+
+}
+
+.project-photo {
     width: 50%;
 
 }
-@media(min-width:992px){
-    .project-photo{
+
+@media(min-width:992px) {
+    .project-photo {
         width: 30%;
     }
 }
-.container-project-photo{
-flex-wrap: wrap;
-   display: flex;
-}
-@media(min-width:992px){
-    .container-project-photo{
-justify-content: center;
 
+.container-project-photo {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+@media(min-width:992px) {
+    .container-project-photo {
+        justify-content: center;
+
+    }
+}
+
+.container-case {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+@media(min-width:992px) {
+    .container-case {
+        justify-content: center;
+        justify-content: space-around;
+    }
+}
+
+.case-photo {
+    width: 50%;
+}
+
+@media(min-width:992px) {
+    .case-photo {
+        width: 30%;
+    }
+}
+
+.contact-head {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+
+
+}
+
+@media(min-width:992px) {
+    .contact-head {
+        padding-left: 20%;
+        padding-top: 30px;
+    }
+}
+
+.contact-input ::placeholder {
+    font-size: 10px;
+    padding-left: 15px;
+
+
+}
+
+.contact-input input {
+    background: #F7F6F6;
+    border: #F7F6F6 solid 1px;
+}
+
+.contact-button {
+    background: #0094D9;
+    width: 100%;
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 10px;
+    height: 5vh;
+
+}
+
+@media(min-width:992px) {
+    .contact-button {
+        width: 100%;
+    }
+}
+
+.contact-location {
+    width: 100%;
+    margin-top: 30px;
+}
+
+@media(min-width:992px) {
+    .contact-location {
+        width: 70%;
+    }
+}
+
+@media(min-width:992px) {
+    .contact-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+.container-head-link :hover {
+    color: #0094D9;
+
+    animation-duration: 4s;
+}
+
+
+
+
+.project-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+@media (min-width: 992px){
+    .project-buttons{
+        gap: 50px;
+    }   
+}
+.project-buttons .project-button{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+.project-buttons .project-button.active{
+    font-weight: 600;
+    font-size: 18px;    
+    border-bottom: 4px solid #0094D9;
+}
+
+.projects-wrapper{
+    width: 100%;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    place-items: center;
+}
+@media (min-width: 768px){
+    .projects-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 992px){
+    .projects-wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.project-card{
+    width: 100%;
+    min-height: 400px;
+    max-height: 420px;
+    position: relative;
+    overflow: hidden;
+}
+.project-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    min-height: 400px;
+    max-height: 420px;
+}
+
+.project-card .project-card-hover{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background-color: #303030A8;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    gap: 15px;
+    opacity: 0;
+    transition: all 0.3s;
+    overflow: hidden;
+}
+.project-card .project-card-hover a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #303030A8;
+}
+@media (min-width: 768px){
+    .project-card .project-card-hover a{
+        width: 80px;
+        height: 80px;
+        font-size: 28px;
+    }
+}
+
+.project-card:hover .project-card-hover{
+    opacity: 1;
+}
+
+.project-card-title{
+    font-size: 16px;
+    font-weight: 600;
+}
+.project-card-text{
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+@media (min-width: 768px){
+    .project-card-title{
+        font-size: 22px;
+        font-weight: 600;
     }
 }
